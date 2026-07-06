@@ -1,0 +1,48 @@
+# 组织知识库配置文件
+# 由 setup.py 自动生成，也可手动编辑
+
+# === 知识库核心配置 ===
+wiki:
+  # 知识库根目录（存放 .md 文件的目录）
+  # 建议使用绝对路径，如：/home/user/my-wiki 或 D:/my-org/wiki
+  dir: ./my-wiki
+
+  # 三层索引文件（相对 wiki.dir 的路径）
+  index_file: knowledge_index.md
+
+# === RAG 配置（可选模块）===
+rag:
+  # 是否启用 RAG（true/false）
+  # 首次使用建议设为 false，先把 Wiki 建起来
+  enabled: false
+
+  # 向量数据库存储路径（目录）
+  vectors_dir: ./rag-data
+
+  # 向量数据库文件名
+  vectors_file: wiki_vectors.json
+
+  # Ollama API 地址
+  ollama_api: http://localhost:11434
+
+  # 嵌入模型（用于向量化文档）
+  embed_model: nomic-embed-text
+
+  # 生成模型（用于RAG问答）
+  gen_model: qwen2.5:7b
+
+  # 检索返回的相关段落数量
+  top_k: 5
+
+  # Chunk 切割参数
+  chunk_min_len: 150
+  chunk_max_len: 400
+  chunk_table_max: 600
+
+# === 维护配置 ===
+maintenance:
+  # 归档目录（过时文档存放处，相对 wiki.dir）
+  archive_dir: archive/
+
+  # 日志目录
+  log_dir: ./logs
