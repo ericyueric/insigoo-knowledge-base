@@ -1,0 +1,11 @@
+# 组织知识库 - Python依赖
+# 安装命令: pip install -r requirements.txt
+
+# HTTP请求库（调用Ollama API）
+requests>=2.25.0
+
+# 数值计算（向量相似度计算）
+numpy>=1.20.0
+
+# YAML配置解析（可选，不装则用内置解析器）
+PyYAML>=5.4.0
