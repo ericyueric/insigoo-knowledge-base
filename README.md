@@ -187,3 +187,7 @@ MIT License - 自由使用、修改、分发
 > 两者原本是同一套「组织知识库建设标准」的两个副本，现统一到本仓库，并采用通用定位
 > （不局限于公益组织，适用于企业团队 / 研究小组 / 社会组织等任何组织）。
 > 原 `insigoo-agentic-rag` 仓库已归档，请改用本仓库。
+
+## 相关开源仓库
+
+- [insigoo-knowledge-architect](https://github.com/ericyueric/insigoo-knowledge-architect) — 基于本方法论的「知识库架构师」通用 dsh agent 角色（开源 MIT，可适配任意行业组织）。
