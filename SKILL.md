@@ -1,7 +1,7 @@
 ---
 name: insigoo-knowledge-base
-version: 1.0.0
-description: 组织知识库建设标准与工具集 —— LLM Wiki三层索引 + 可选Agentic RAG向量检索。帮助任何组织（尤其非技术背景的公益机构）建立可维护、可检索、AI友好的知识库。
+version: 2.0.0
+description: 组织知识库建设标准与工具集 —— LLM Wiki三层索引 + 可选Agentic RAG向量检索。帮助任何组织建立可维护、可检索、AI友好的知识库。
 author: insigoo (因思阁)
 license: MIT
 tags: [knowledge-base, rag, llm-wiki, index, ollama]
@@ -10,7 +10,7 @@ tags: [knowledge-base, rag, llm-wiki, index, ollama]
 # 组织知识库建设标准 (Org Knowledge Base)
 
 > **版本**: v1.0 | **适用对象**: 任何希望建立AI友好知识库的组织
-> **特别适合**: 公益机构、社会团体、研究小组（非技术背景可操作）
+> **适用对象**: 企业团队、研究小组、社会组织（非技术背景可操作）
 
 ---
 
@@ -209,7 +209,7 @@ my-wiki/
 | **数据隐私** | 完全本地运行，数据不上传云端 |
 | **零成本** | 不消耗API配额 |
 | **离线可用** | 无网络也能用 |
-| **适合公益机构** | 敏感数据（受益人信息等）不外泄 |
+| **隐私保护** | 所有数据留在本机，不外泄 |
 
 ### 何时需要RAG？
 
@@ -299,7 +299,7 @@ insigoo-knowledge-base/
 - 生成模型：可换任意LLM
 - 向量存储：可换Chroma/Milvus等
 
-但Ollama是**零成本、保隐私**的最佳选择，特别适合公益机构。
+但Ollama是**零成本、保隐私**的最佳选择。
 
 ### Q4：和Notion/飞书文档有什么区别？
 
@@ -332,8 +332,8 @@ insigoo-knowledge-base/
 ### 为什么RAG是可选的？
 
 不同组织需求不同：
-- 小组织：LLM Wiki + 索引足够
-- 中型组织：加RAG提升检索
+- 小团队：LLM Wiki + 索引足够
+- 中型团队：加RAG提升检索
 - 大型组织：需要更专业的向量数据库
 
 强制RAG会增加门槛（需要Ollama、Python环境），违背"非技术背景可操作"的原则。所以设计为可选模块。
@@ -342,7 +342,7 @@ insigoo-knowledge-base/
 
 ## 致谢
 
-本标准源自一线实践，经过多轮迭代验证。感谢所有提供反馈的组织和伙伴。
+本标准源自一线实践，经过多轮迭代验证。
 
 ---
 
