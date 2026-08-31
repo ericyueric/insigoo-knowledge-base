@@ -191,3 +191,4 @@ MIT License - 自由使用、修改、分发
 ## 相关开源仓库
 
 - [insigoo-knowledge-architect](https://github.com/ericyueric/insigoo-knowledge-architect) — 基于本方法论的「知识库架构师」通用 dsh agent 角色（开源 MIT，可适配任意行业组织）。
+- [insigoo-agents](https://github.com/ericyueric/insigoo-agents) — insigoo OS 标准 agent 角色配置（开源 MIT）：总编排 / 数据分析师 / SIA 诊断 / 课程开发 四件套 + dsh preset 生成器。
